@@ -19,3 +19,7 @@ O portfólio é uma aplicação web simples, moderna e responsiva, projetada par
 - **HTML5:** Estruturação semântica de conteúdo.
 - **CSS3:** Estilização moderna, layouts responsivos e design flexível (`estilo.css`).
 - **Assets/Design:** Favicon personalizado e imagens otimizadas para navegação.
+
+---
+
+🔗 **Ver o site no ar:** [https://adrianoliveiradev.github.io/portfolio-adrian/](https://adrianoliveiradev.github.io/portfolio-adrian/)
