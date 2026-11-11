@@ -696,3 +696,17 @@ body {
     text-align: center;
   }
 }
+
+.window-body {
+    padding: 0;
+    overflow: hidden;
+    height: 320px; 
+}
+
+.avatar-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    object-position: center top; 
+    display: block;
+}
