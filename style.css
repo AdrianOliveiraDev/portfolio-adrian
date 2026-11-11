@@ -517,33 +517,57 @@ body {
   width: fit-content;
 }
 
-.project-links {
+
+.projeto-links {
     display: flex;
     gap: 10px;
-    margin-top: 15px;
+    margin-top: auto; 
+    padding-top: 15px;
+    flex-wrap: wrap;
 }
 
-.project-links a {
-    padding: 8px 12px;
-    border-radius: 4px;
+
+.projeto-links a {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 14px;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    font-weight: 600;
     text-decoration: none;
-    font-size: 0.9rem;
-    font-weight: 500;
-    transition: background 0.3s;
+    transition: all 0.2s ease-in-out;
 }
+
 
 .btn-github {
-    background-color: #24292e;
+    background-color: #21262d;
+    color: #c9d1d9;
+    border: 1px solid #30363d;
+}
+
+.btn-github:hover {
+    background-color: #30363d;
     color: #ffffff;
 }
+
 
 .btn-live {
-    background-color: #007bff; /* Azul padrão do teu portfólio */
+    background-color: #1f6beb;
     color: #ffffff;
+    border: 1px solid #1f6beb;
 }
 
-.btn-github:hover, .btn-live:hover {
-    opacity: 0.85;
+.btn-live:hover {
+    background-color: #388bfd;
+    border-color: #388bfd;
+}
+
+
+.projeto-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .contato-grid {
   display: grid;
